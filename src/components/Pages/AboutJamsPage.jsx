@@ -1,5 +1,6 @@
 import learningImg from "../../assets/images/learning.svg"
 import Ideas from "../../assets/images/ideas.svg"
+import Clock from "../../assets/images/clock.svg"
 function AboutJamsPage(){
     return(
         <main className="mt-16 flex justify-center items-center flex-col p-4 space-y-12 ">
@@ -30,11 +31,34 @@ m                   many learners struggle to stay consistent and inspired, espe
                 <section className="space-y-4 ">
                     <h1 className="font-bold text-fern text-4xl text-center">What We Offer</h1>
                     <ul className="flex justify-center items-center flex-col sm:flex-row space-x-4 space-y-4">
-                        <li className="bg-wild-willow rounded p-4">
-                            <h2 className="text-center font-bold text-merino">Study Tools</h2>
+                        <li className="flex justify-center items-center flex-col">
+                            <img src={Clock} alt="" width={100} />
+                            <div className="bg-wild-willow rounded p-4">
+                                <h2 className="text-center font-bold text-merino">Study Tools</h2>
                             <p>Install Study Tools to help you study</p>
+                            </div>
                         </li>
-                        
+                         <li className="flex justify-center items-center flex-col">
+                            <img src={Clock} alt="" width={100} />
+                            <div className="bg-wild-willow rounded p-4">
+                                <h2 className="text-center font-bold text-merino">Study Tools</h2>
+                            <p>Install Study Tools to help you study</p>
+                            </div>
+                        </li>
+                         <li className="flex justify-center items-center flex-col">
+                            <img src={Clock} alt="" width={100} />
+                            <div className="bg-wild-willow rounded p-4">
+                                <h2 className="text-center font-bold text-merino">Study Tools</h2>
+                            <p>Install Study Tools to help you study</p>
+                            </div>
+                        </li>
+                         <li className="flex justify-center items-center flex-col">
+                            <img src={Clock} alt="" width={100} />
+                            <div className="bg-wild-willow rounded p-4">
+                                <h2 className="text-center font-bold text-merino">Study Tools</h2>
+                            <p>Install Study Tools to help you study</p>
+                            </div>
+                        </li>
                     </ul>
                 </section>
             </div>
