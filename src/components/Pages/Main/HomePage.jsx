@@ -1,5 +1,6 @@
 import React from "react"
-import videoCall from "../../assets/images/video-call.svg"
+import videoCall from "../../../assets/images/video-call.svg"
+
 function HomePage(){
     return(
        <main className="p-4 min-h-screen flex justify-center items-center bg-gradient-to-br from-[#71BC78] to-white overflow-hidden ">
